@@ -1859,7 +1859,7 @@ function ocrPhoto(img) {
    [글자] 대문자·숫자·기호(_ - / .) 한 줄
    읽은 걸 원래 종류 그대로(글자는 Code128) 깨끗하게 띄워서 PDA가 폰 화면을 찍는다. */
 HK.rd = 'jqr_reader_hist_v1';
-var RELAY_URL = '';           // 슬랙 보내기를 맡는 앱스크립트 웹앱 주소
+var RELAY_URL = 'https://script.google.com/a/macros/kurlycorp.com/s/AKfycbzr2hQb6yxvTbMUHSFya9oCNiARqA86vaNJMk0y5Yhnelvmc3GYCFjw5Vf7VurPlav91Q/exec';   // 슬랙 보내기를 맡는 앱스크립트(평택 상온 지번 QR) 웹앱 주소
 var MONO = 'ui-monospace,Menlo,Consolas,"Roboto Mono","Droid Sans Mono","Courier New",monospace';
 var R = { view: 'scan', mode: lsGet('jqr_rd_mode_v1', 'code') === 'text' ? 'text' : 'code',
           res: null, render: 'bar', typesOpen: false, thin: false, photoURL: null,
